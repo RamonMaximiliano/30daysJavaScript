@@ -12,33 +12,36 @@
 <body>
     <main class="main">
 
-        <form>
-            <div>
+        <form class="main-form">
+            <div class="title">
                 <h1>ROCKET<strong>PAY</strong></h1>
                 <img alt="Sound icon">
             </div>
-            <label>Número do cartão</label>
+            <label>Número do cartão</label><br>
+            <input type="text"><br>
+
+            <label>Nome do titular</label><br>
             <input type="text">
-            <label>Nome do titular</label>
-            <input type="text">
+            <div class="expiracao">
+                <div>
+                <label>Expiração</label><br>
+                <input type="date"><br>
+            </div>
             <div>
-                <label>Expiração</label>
-                <input type="date">
-                <label>CVC</label>
+
+                <label>CVC</label><br>
                 <input type="number">
             </div>
-            <input type="button">
+
+            </div>
+            <input type="button" value="ADICIONAR CARTÃO" class="main-button">
         </form>
 
         <div class="card-div" name="card-div">
-
-
+            Card image here
         </div>
-
-
 
     </main>
 </body>
 
 </html>
-
